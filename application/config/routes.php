@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'hogwarts';
 $route['sleep'] = 'first/zzz';
-$route['lock/em/up'] = 'welcome/shucks';
+$route['lock/em/up'] = 'hogwarts/shucks';
 $route['show/(:num)'] = 'first/gimme/$1';
 $route['dunno'] = function() {
 $source = '../data/surprise.jpg'; // an image you provide, outside of "public"!
@@ -61,6 +61,7 @@ header('Content-Disposition: inline');
 readfile($source); // dish it
 die(); // and we don't have to go any further
 };
-$route['^[a-zA-Z]{4}/bingo'] = 'wise';
+$route['^[a-zA-Z]{4}/bingo'] = 'bingo';
+$route['^comp[0-9]{4}/wisdom'] = 'wise/bingo';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
