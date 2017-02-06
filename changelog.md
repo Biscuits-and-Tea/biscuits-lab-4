@@ -63,5 +63,8 @@ Release Date: Feb 5, 2017
 	- Added new routing rule: '^comp[0-9...'->'wise/bingo'		(Captain)
 	- Created controller: 'Wise.php'							(Captain)
 	- Added function: 'bingo' to 'Wise.php'						(Captain)
+  - Fixed issue #12 by:
+	- changed routing rule: '404_override'->'hogwarts/random'	(Captain)
+	- Added function: 'random' to 'Hogwarts.php'				(Captain)
   
   

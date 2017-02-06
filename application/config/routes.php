@@ -63,5 +63,5 @@ die(); // and we don't have to go any further
 };
 $route['^[a-zA-Z]{4}/bingo'] = 'bingo';
 $route['^comp[0-9]{4}/wisdom'] = 'wise/bingo';
-$route['404_override'] = '';
+$route['404_override'] = 'hogwarts/random';
 $route['translate_uri_dashes'] = FALSE;
