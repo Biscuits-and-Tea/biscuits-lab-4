@@ -45,18 +45,23 @@ Release Date: Feb 5, 2017
   - Fixed Issue #7 by:
 	- Created directory: 'data' same folder level as 'public'	(Captain)
 	- Added image: 'surprise.jpg' in 'data' folder				(Captain)
-	- Added new routing rulse to 'routes.php'					(Captain)
-	- Added function: 'shucks' in 'Welcome.php'			(Captain)
+	- Added new routing rule to 'routes.php'					(Captain)
+	- Added function: 'shucks' in 'Welcome.php'					(Captain)
   - Fixed Issue #7 by:
 	- Created directory: 'data' same folder level as 'public'	(Captain)
-	- Added image: 'surprise.jpg' in 'data' folder			(Captain)
-	- Added new routing rulse to 'routes.php'			(Captain)
-	- Added function: 'shucks' in 'Welcome.php'			(Captain)
+	- Added image: 'surprise.jpg' in 'data' folder				(Captain)
+	- Added new routing rulse to 'routes.php'					(Captain)
+	- Added function: 'shucks' in 'Welcome.php'					(Captain)
   - Fixed issue #9 by:
-        - created 'wise.php' controller                                 (mate)
-        - added new routing rule using regex in 'routes.php'            (mate)
+	- created 'bingo.php' controller                                (mate)
+	- added new routing rule using regex in 'routes.php'            (mate)
   - Fixed issue #11 by:
-        - renamed welcome.php to hogwarts.php                                  (mate)
-        - changed class name of hogwarts.php to hogwarts from welcome
-        - changed routing rule to make hogwarts.php the new default controller (mate)
+	- renamed welcome.php to hogwarts.php                                  (mate)
+	- changed class name of hogwarts.php to hogwarts from welcome
+	- changed routing rule to make hogwarts.php the new default controller (mate)
+  - Fixed issue #10 by:
+	- Added new routing rule: '^comp[0-9...'->'wise/bingo'		(Captain)
+	- Created controller: 'Wise.php'							(Captain)
+	- Added function: 'bingo' to 'Wise.php'						(Captain)
+  
   
